@@ -1,6 +1,8 @@
 pragma solidity ^0.4.18;
 
-contract RegistroPessoa is Owner {
+import { Destroyable } from "./Destroyable.sol";
+
+contract RegistroPessoa is Destroyable {
     //Atributo
     address[] public contas;
     mapping (address=>address) public mapaPessoas;
