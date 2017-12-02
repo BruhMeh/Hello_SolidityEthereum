@@ -1,0 +1,62 @@
+1º Class
+
+GoBlockChain
+
+# Desenvolvimento Ethereum
+
+<365 Corretora Ether>
+
+<BitCoin and blockchain>
+A blockchain nasceu com o bitcoin, para possibilitar que existam transações registradas, criptografadas e de forma descentralizada e publica.
+
+<Solidity e Serpenty>
+Linguagens de desenvolvimento para ethereum (Serpenty é similar o Python)
+
+*Meetup Corda Dia 7*
+
+<WEI>
+Menor valor da plataforma Ether, atualmente é 0,00000010
+
+>EVM<
+Ethereum Virtual Machine
+
+>GETH<
+Client Peer-to-Peer using blockchain 
+
+>Boas práticas em desenvolvimento Solidity<
+Desenvolver de forma mais barata e leve possivel (Escovação de Bits)
+Ex: Para uma variavel idade não faz sentido usar um int126, se um int8 atende perfeitamente e é mais leve
+
+>BlockChain Privado<
+Corda e Hyperledger (IBM)
+
+>DAPP< Decentralized Application -> Publico
+
+>IPFS ou SWARM< Rede peer-to-peer blockchain usada para armazenamento de arquivos 
+
+>Principais Comandos GTH<
+geth --dev => ambiente da net dev, test-net ou main-net
+ --rpc => Para se conectar a rede
+ --rpcaddr "0.0.0.0" => endereço da rede
+ --rpcport "8545" => porta da rede
+ --rpcapi "web3,eth,net,personal" => APIs disponiveis
+ --datadir "private" => diretorio do geth.ipc
+ --mine => permitir mineração
+
+Contas criadas em aula
+merlin(main) "0x9639fc1221c3214f9a28ba0711ea0cd4c8b67bae"
+lancelot "0x752958c10f26590a754f5576c475886a14f71d66"
+galahad "0x6e09c8be16d070b3ca690c77e339005ef8cec380"
+percival "0x70be21d949b44d4d6322b7175bd7d7748c014eaa"
+
+
+
+Atividades:
+- Pessoas não podem ser salvas duas vezes
+- Adicionar um contador na classe de registro de Pessoas
+- Desenhar um projeto pessoal
+
+
+http://www.dontpad.com/aula_ethereum_02
+http://www.dontpad.com/aula_codigo_ethereum_02
+
